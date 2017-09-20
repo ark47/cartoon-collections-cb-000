@@ -26,7 +26,11 @@ end
 
 def find_the_cheese(queso)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  x = queso && cheese_types
-  if x.include? == nil
-    
+  x = []
+  x << queso && cheese_types
+  if x.include?(nil)
+    x.include?
+  else
+    x.first
+  end
 end
