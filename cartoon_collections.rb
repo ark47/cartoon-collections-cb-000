@@ -30,8 +30,6 @@ def find_the_cheese(queso)
   if x.any? == true
     x.first
   else
-    x.each do |y|
-      y
-    end
+    nil
   end
 end
